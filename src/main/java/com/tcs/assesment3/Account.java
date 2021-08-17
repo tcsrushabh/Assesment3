@@ -20,9 +20,9 @@ public class Account{
 		String DB_PASSWORD = "Nuvelabs123$";
 		try(Connection connection = DriverManager.getConnection(DB_URL,DB_USER,DB_PASSWORD);
 				Statement statement = connection.createStatement();){
-				Create(statement);
-				Deposit(statement);
-			    withdraw(statement);
+//				Create(statement);
+//				Deposit(statement);
+//			    withdraw(statement);
 			    retrieve(statement);
 		}
 		catch(SQLException e) {
